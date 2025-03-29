@@ -1,0 +1,80 @@
+/* Base Styles */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark {
+  background: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.light {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.controls {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+input,
+button {
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#nameDisplay {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem 0;
+  border: 2px dashed #007bff;
+  border-radius: 8px;
+}
+
+.mode-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+}
+
+.file-input {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.file-input input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

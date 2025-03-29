@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Name Selector</h1>
+        
+        <div class="input-section">
+            <input type="file" id="excelFile" accept=".xlsx, .xls" />
+            <p>OR</p>
+            <textarea id="nameInput" placeholder="Enter names separated by commas"></textarea>
+            <button onclick="addNames()">Add Names</button>
+        </div>
+
+        <div class="display-section">
+            <div id="nameDisplay" class="name-display">
+                Click button to select a name
+            </div>
+            <button onclick="pickRandomName()" class="pick-button">Pick Random Name</button>
+            <p id="totalNames">Total names: 0</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

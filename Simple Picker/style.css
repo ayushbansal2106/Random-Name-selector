@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.input-section {
+    margin-bottom: 2rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.name-display {
+    background: #f8f9fa;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.name-display.animate {
+    transform: scale(1.1);
+    background: #e8f5e9;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#totalNames {
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+}

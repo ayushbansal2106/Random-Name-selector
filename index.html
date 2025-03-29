@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Name Picker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body class="dark">
+    <div class="container">
+        <div class="mode-toggle" onclick="toggleDarkMode()">🌓 Toggle Theme</div>
+        
+        <h1>🎯 Random Name Picker</h1>
+        
+        <div class="controls">
+            <input type="text" id="nameInput" placeholder="Enter names separated by commas">
+            <button onclick="addNames()">➕ Add Names</button>
+            
+            <div class="file-input">
+                <button>📂 Upload Excel File</button>
+                <input type="file" id="excelFile" accept=".xlsx, .xls">
+            </div>
+        </div>
+
+        <div id="nameDisplay">Ready to pick names!</div>
+
+        <div class="controls">
+            <button onclick="pickRandomName()">🎲 Pick Random Name</button>
+            <button onclick="clearNames()">🗑️ Clear All Names</button>
+        </div>
+
+        <div id="status">Total names: 0</div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
