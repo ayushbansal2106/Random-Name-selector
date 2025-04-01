@@ -52,7 +52,6 @@ function pickRandomName() {
   const display = document.getElementById("nameDisplay");
   let counter = 0;
 
-  // Simple animation
   const interval = setInterval(() => {
     display.textContent = names[Math.floor(Math.random() * names.length)];
     if (++counter > 15) {
