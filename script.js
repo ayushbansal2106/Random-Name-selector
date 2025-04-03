@@ -46,17 +46,26 @@ document.getElementById("excelFile").addEventListener("change", async (event) =>
   }
 });
 
-// Pick a random name or use the predefined one if set
+// Pick a random name or use the predefined one with shuffle animation
 function pickRandomName() {
   const display = document.getElementById("nameDisplay");
 
-  // Check for developer-injected name
+  // Shuffle animation for predefined name
   if (predefinedName) {
-    display.textContent = `🎉 ${predefinedName}`;
-    usedNames.push(predefinedName); // Add predefined name to "used"
-    predefinedName = ""; // Clear the predefined name after using it
-    updateStatus();
-    return;
+    let counter = 0;
+    const interval = setInterval(() => {
+      // Show random names briefly
+      display.textContent = names[Math.floor(Math.random() * names.length)] || predefinedName;
+      if (++counter > 15) {
+        clearInterval(interval);
+        // Show predefined name at the end
+        display.textContent = `🎉 ${predefinedName}`;
+        usedNames.push(predefinedName); // Add predefined name to "used"
+        predefinedName = ""; // Clear the predefined name after using it
+        updateStatus();
+      }
+    }, 100);
+    return; // Exit after showing the predefined name
   }
 
   // Check if there are no names left to pick
