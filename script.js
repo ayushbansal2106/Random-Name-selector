@@ -120,4 +120,4 @@ function showMessage(message, isError = false) {
 }
 
 // Developer-only: Inject a predefined name (set this in VSCode)
-predefinedName = ""; // Change "Alice" to any name you want
+predefinedName = "Your_Name";
