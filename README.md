@@ -49,15 +49,15 @@ This project is open source and available under the MIT License.
 
 ## Contributions
 
-This project was developed and maintained by [Your Name]. Contributions and feedback are welcome!
+This project was developed and maintained by Ayush Bansal. Contributions and feedback are welcome!
 
 ## Connect with Me
 
 Feel free to connect with me on social media:
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](YOUR_TWITTER_LINK_HERE)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](YOUR_LINKEDIN_LINK_HERE)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](YOUR_GITHUB_LINK_HERE)  
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Ayush210606?t=qNvLMoCaQ-tPelaEpS785A&s=09)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-bansal2106)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushbansal2106)  
 
 *Replace the placeholder links above with your actual profile URLs.*
 
